@@ -1,0 +1,125 @@
+/*Badan*/
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    color: white;
+    background-color: rgb(33, 33, 33);
+}
+/*Luar*/
+.outside {
+    margin: 20px;
+}
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/*Header*/
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    max-width: 100%;
+    height: 80px;
+}
+/* navigasi */
+nav {
+    height: 4.7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #494949;
+    transition: 0.5s;
+    font-size: 20px;
+    color: white;
+}
+.left {
+    padding-left: 2.5rem;
+    font-weight: 600;
+    font-size: 30px;
+}
+.left a {
+    cursor: default;
+    color: white;
+}
+.right {
+    margin-right: 2.5rem;
+}
+nav ul {
+    padding: 0;
+}
+nav li {
+    display: inline-block;
+    margin-left: 1rem;
+    transition: 0.5s;
+}
+nav li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+nav li a:hover {
+    background-color: #ffffff;
+    box-shadow: inset 0 0 10px #00000080;
+    color: black;
+    transition: 0.5s;
+}
+
+/*Sisi*/
+.side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000000;
+    position: relative;
+    flex: 1;
+    margin: 10px;
+    width: 300px;
+    height: 145px;
+    border-radius: 10px;
+    grid-row: 3;
+    box-shadow: 0 0 5px rgb(255, 255, 255);
+}
+.side2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000000;
+    position: relative;
+    flex: 1;
+    margin: 10px;
+    width: 300px;
+    height: 145px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgb(255, 255, 255);
+}
+/*Konten*/
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000000;
+    position: relative;
+    flex: 2;
+    margin: 10px;
+    max-width: 65%;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgb(255, 255, 255);
+}
+/*Footer*/
+footer {
+    margin-top: 2rem;
+    height: 3rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 1.5rem;
+}
+
